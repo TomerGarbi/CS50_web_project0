@@ -10,15 +10,20 @@
 <body>
     <div id="root">
         <div id="nav">
-            <a href="./search_images.html"> images</a>
+            <a href="./index.html">search</a>
             <a href="./advanced_search.html"> advanced_search</a>
-        </div>
+        </div>  
         <div id="main">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo">
-            <form action="https://google.com/search?">
+            <img src="	https://www.google.co.il/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo">
+            <div>
+                <span>images</span>
+            </div>
+            <form action="https://www.google.com/search?">
                 <input type="text" name="q" placeholder="search" id="search_bar">
-                <input type="submit" name="submit" value="search">
+                <input type="text" name="tbm" value="isch" hidden>
+                <input type="submit" name="submit">
             </form>
         </div>
+    </div>
 </body>
 </html>
